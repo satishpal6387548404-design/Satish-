@@ -1,0 +1,18 @@
+print("🎮 Welcome to Guess Game 🎮")
+
+name = input("Apna naam likho: ")
+print("Hello", name)
+
+secret_number = "5"
+score = 0
+
+guess = input("Number guess karo (1 se 10): ")
+
+if guess == secret_number:
+    score = score + 1
+    print("🎉 Sahi jawab!")
+else:
+    print("❌ Galat jawab")
+
+print("Final Score:", score)
+print("Game Over")
